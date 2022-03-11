@@ -1,0 +1,31 @@
+@import "../../styles/variables.scss";
+.category {
+  background: $category-background 0% 0% no-repeat padding-box;
+  color: $category-font-color;
+  border-radius: 20px;
+  padding: 0.35rem 1.25rem;
+  text-align: left;
+  font: normal normal bold 14px/19px Roboto;
+  letter-spacing: 0px;
+  cursor: pointer;
+}
+
+.selected-category {
+  @extend .category;
+  background: $selected-category-background 0% 0% no-repeat padding-box;
+  color: initial;
+}
+
+.add-category {
+  @extend .category;
+  background: black 0% 0% no-repeat padding-box;
+  font: normal normal 500 14px/19px Roboto;
+  color: white;
+  width: fit-content;
+}
+
+.disabled {
+  @extend .category;
+  cursor: not-allowed;
+  opacity: 0.5;
+}

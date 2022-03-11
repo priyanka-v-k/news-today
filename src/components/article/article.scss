@@ -1,0 +1,31 @@
+.heading {
+  font: normal normal bold 16px/21px Roboto;
+  color: #212121;
+}
+
+.divider {
+  width: 4px;
+  height: 4px;
+  background: #989898;
+  border-radius: 50%;
+}
+
+.meta-info {
+  font: normal normal 550 12px/16px Roboto;
+  color: #989898;
+  gap: 0.75rem;
+}
+
+.content {
+  font: normal normal normal 14px/19px Roboto;
+  letter-spacing: 0px;
+  color: #393939;
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+img {
+  border-radius: 9px;
+}

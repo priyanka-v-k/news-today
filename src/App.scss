@@ -1,0 +1,15 @@
+@import '~bootstrap/scss/bootstrap';
+@import './styles/variables.scss';
+
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: $body-background 0% 0% no-repeat padding-box;
+  letter-spacing: 0;
+}
+
+h1 {
+  font-family: 'RobotoBold', sans-serif;
+}
