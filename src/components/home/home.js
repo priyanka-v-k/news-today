@@ -22,8 +22,8 @@ const Home = () => {
       .get("https://newsapi.org/v2/top-headlines", {
         params: {
           sources: selectedCategory,
-          // apiKey: "a5cf886a8dd84801a01c8b5bd0da1b0d",
-          apiKey: "b735de316e1f4edfb4c95ee5e3ab1335",
+          apiKey: "a5cf886a8dd84801a01c8b5bd0da1b0d",
+          // apiKey: "b735de316e1f4edfb4c95ee5e3ab1335",
           ...(searchTerm && { q: searchTerm }),
         },
       })
