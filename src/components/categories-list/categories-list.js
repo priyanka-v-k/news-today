@@ -18,7 +18,11 @@ const CategoriesList = (props) => {
             }
             onClickHandler={() => props.onCategorySelectHandler(category)}
           >
-            {category !== "+" ? <span>{category}</span> : <img src={addIcon} />}
+            {category !== "+" ? (
+              <span>{category}</span>
+            ) : (
+              <img src={addIcon} alt="add" />
+            )}
           </Category>
         );
       })}

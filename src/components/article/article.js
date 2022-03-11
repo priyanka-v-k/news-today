@@ -14,7 +14,7 @@ const Article = (props) => {
         <div className="content mt-3">{props.description}</div>
       </div>
       <div className="w-25">
-        <img className="w-100 h-100" src={props.imgUrl}></img>
+        <img className="w-100 h-100" src={props.imgUrl} alt="cover"></img>
       </div>
     </Card>
   );

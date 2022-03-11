@@ -46,7 +46,7 @@ const ModalOverlay = (props) => {
       <div className="mt-2">
         <Category className="add-category" onClickHandler={onAddHandler}>
           <span>
-            <img src={addIcon} /> Add
+            <img src={addIcon} alt="add"/> Add
           </span>
         </Category>
       </div>
